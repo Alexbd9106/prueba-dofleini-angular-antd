@@ -1,0 +1,141 @@
+:root {
+  /* Colors: */
+  --unnamed-color-48b5fe: #48B5FE;
+  --unnamed-color-ffffff: #FFFFFF;
+  --unnamed-color-e4e4e4: #E4E4E4;
+  --unnamed-color-000000: #000000D6;
+  --unnamed-color-ebf7ff: #EBF7FF;
+  --unnamed-color-f5f5f5: #F5F5F5;
+  --unnamed-color-fec148: #FEC148;
+  --unnamed-color-268dd2: #268DD2;
+
+  /* Font/text values */
+  --unnamed-font-family-fira-sans: 'Fira Sans';
+  --unnamed-font-style-normal: normal;
+  --unnamed-font-weight-normal: normal;
+  --unnamed-font-size-14: 14px;
+  --unnamed-font-size-18: 18px;
+  --unnamed-character-spacing-0: 0px;
+  --unnamed-line-spacing-20: 20px;
+}
+
+
+
+p {
+  text-align: left;
+  letter-spacing: 0px;
+  font-family: 'Fira Sans';
+}
+
+button {
+  text-align: left;
+  letter-spacing: 0px;
+  font-family: 'Fira Sans';
+}
+
+td {
+  text-align: left;
+  letter-spacing: 0px;
+  font-family: 'Fira Sans';
+  opacity: 0.5;
+}
+
+p .text-configuracion {
+  font: var(--unnamed-font-style-normal) normal normal var(--unnamed-font-size-18)/var(--unnamed-line-spacing-20);
+  color: var(--unnamed-color-000000);
+}
+
+p .encabezados {
+  font: var(--unnamed-font-style-normal) normal normal var(--unnamed-font-size-14)/var(--unnamed-line-spacing-20);
+  color: var(--unnamed-color-000000);
+}
+
+input {
+  width: 100%;
+  text-align: left;
+  font-family: 'Fira Sans';
+  height: 40px;
+  border-color: var(--unnamed-color-e4e4e4);
+  border-width: 1px;
+  border-radius: 5px;
+}
+
+.avatar {
+  border-radius: 34px;
+  background: #343C4A 0% 0% no-repeat padding-box;
+  width: 67px;
+  height: 67px;
+  margin-right: 20px;
+}
+
+.row {
+  padding-top: 5%;
+  padding-bottom: 15%;
+  place-content: center;
+  background-color: var(--unnamed-color-ffffff);
+}
+
+.config {
+  height: 100vh;
+  padding-left: 5%;
+}
+
+.svg {
+  height: 100vh;
+  float: right;
+}
+
+.upload {
+  opacity: 0.5;
+}
+
+.button-group {
+  margin-right: 18px;
+  margin-bottom: 18px;
+  font-family: 'Fira Sans';
+  border-width: 1px;
+  border-radius: 5px;
+  border-style: solid;
+  font-weight: bolder;
+}
+
+.button-color {
+  margin-right: 18px;
+  margin-bottom: 18px;
+  width: 48px;
+  height: 48px;
+  border: none;
+}
+
+.color-picker {
+  width: 100px;
+}
+
+.radio {
+  width: 299px;
+  height: 97px;
+  border-radius: 5px;
+  border-width: 1px;
+  margin-right: 18px;
+  margin-bottom: 18px;
+  border-style: solid;
+  padding: 2%;
+}
+
+span {
+  opacity: 0.7;
+}
+
+.button-form {
+  margin-right: 18px;
+  font-family: 'Fira Sans';
+  border-color: var(--unnamed-color-e4e4e4);
+  border-width: 1px;
+  border-radius: 5px;
+}
+
+@media(max-width:768px) {
+  .svg {
+    display: none;
+  }
+}
